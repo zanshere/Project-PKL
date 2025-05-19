@@ -1,10 +1,11 @@
 * text=auto eol=lf
 
-*.blade.php diff=html
-*.css diff=css
-*.html diff=html
-*.md diff=markdown
-*.php diff=php
+*.blade.php linguist-language=html
+*.css linguist-language=css
+*.html linguist-language=html
+*.js linguist-language=JavaScript
+*.md linguist-language=markdown
+*.php linguist-language=php
 
 /.github export-ignore
 CHANGELOG.md export-ignore
