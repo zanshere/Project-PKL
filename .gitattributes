@@ -1,6 +1,6 @@
 * text=auto eol=lf
 
-*.blade.php linguist-language=html
+*.blade.php linguist-language=blade
 *.css linguist-language=css
 *.html linguist-language=html
 *.js linguist-language=JavaScript
