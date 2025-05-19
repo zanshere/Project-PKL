@@ -67,7 +67,7 @@ jobs:
         DB_PORT: 3306
         DB_DATABASE: db_surat
         DB_USERNAME: root
-        DB_PASSWORD: ""
+        DB_PASSWORD: root
       run: php artisan migrate --force
 
     - name: Run Tests
@@ -77,5 +77,5 @@ jobs:
         DB_PORT: 3306
         DB_DATABASE: db_surat
         DB_USERNAME: root
-        DB_PASSWORD: ""
+        DB_PASSWORD: root
       run: php artisan test
